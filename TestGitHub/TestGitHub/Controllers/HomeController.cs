@@ -12,7 +12,10 @@ namespace TestGitHub.Controllers
         {
             return View();
         }
-
+        /// <summary>
+        /// /
+        /// </summary>
+        /// <returns></returns>
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
